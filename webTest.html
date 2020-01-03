@@ -51,9 +51,10 @@
     ">
 
     <input type="button" value="안드로이드" onclick="
-        window.HybridApp.requestData();
+        window.HybridApp.requestData(window.devicePixelRatio);
     ">
     <a href="webTest2.html">링크</a>
+    <script>document.writeln(window.devicePixelRatio);</script>
 
 </body>
 
