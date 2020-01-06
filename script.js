@@ -1,6 +1,6 @@
 var timerID;
 var colorValue = 255;
-var colorChangeSpeed = 10;
+var colorChangeSpeed = 1;
 var myBody = document.querySelector('body');
 var backgroundChanger = {
     changeWhite: function () {
