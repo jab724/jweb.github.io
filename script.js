@@ -49,14 +49,14 @@ function init()
     if(getCookie('isDarkMode') == '1'){
         // alert(getCookie('isDarkMode'));
         colorValue = 0;
-        document.querySelector('modeChange').value = "일반으로 변경";
+        document.getElementById('modeChange').value = "일반으로 변경";
         myBody.style.color = "rgb(255,255,255)"
         myBody.style.backgroundColor = "rgb(0,0,0)";
     }
     else{
         // alert(getCookie('isDarkMode'));
         colorValue = 255;
-        document.querySelector('modeChange').value = "야간으로 변경";
+        document.getElementById('modeChange').value = "야간으로 변경";
         myBody.style.color = "rgb(0,0,0)"
         myBody.style.backgroundColor = "rgb(255,255,255)";
     }
