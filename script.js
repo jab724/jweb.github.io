@@ -43,14 +43,18 @@ var backgroundChanger = {
 function init()
 {
     if(getCookie('isDarkMode') == '1'){
-        alert(getCookie('isDarkMode'));
+        // alert(getCookie('isDarkMode'));
         colorValue = 0;
         $('modeChange').value = "일반으로 변경";
+        $('body').css('color', "rgb(255,255,255)");
+        $('body').css('backgroundColor', "rgb(0,0,0)");
     }
     else{
-        alert(getCookie('isDarkMode'));
+        // alert(getCookie('isDarkMode'));
         colorValue = 255;
         $('modeChange').value = "야간으로 변경";
+        $('body').css('color', "rgb(" + (255 - colorValue) + "," + (255 - colorValue) + "," + (255 - colorValue) + ")");
+        $('body').css('backgroundColor', "rgb(" + colorValue + "," + colorValue + "," + colorValue + ")");
     }
 }
 
