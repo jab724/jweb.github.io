@@ -5,4 +5,4 @@
 
 유니티WebGL https://jab724.github.io/jweb.github.io/WebBuildTest/index.html
 
-vue(뷰) https://jab724.github.io/jweb.github.io/vue.js
+vue(뷰) https://jab724.github.io/jweb.github.io/vueTest.html
